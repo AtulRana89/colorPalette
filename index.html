@@ -1,219 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Palette Design</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            padding: 20px; 
-            border: 2px solid black;
-            margin-left: 10%;
-            margin-right: 10%;
-        }
-
-        .color-box {
-            width: 45%;
-            margin: 10px;
-            padding: 20px;
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-radius: 5px;
-            font-size: 18px;
-            color: #fff;
-        }
-
-        .color-info {
-            color: black;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Palette Design</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    .color-box {
+      width: 45%;
+      margin: 10px;
+      padding: 20px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 5px;
+      font-size: 18px;
+      color: #fff;
+    }
+    .color-info {
+      color: black;
+    }
+  </style>
 </head>
-
 <body>
-    <h2 style="text-align:center;">Color Palette Design</h2>
-    <div class="container">
-        <!-- Color Box 1 -->
-        <div class="color-box" id="box1" style="background-color: #319E5B;">
-            <span>Session</span>
-            <span class="color-info">BG: #319E5B, Text: #fff</span>
-        </div>
-        <div class="controls">
-            <label>BG: <input type="color" id="bgColor1" value="#319E5B"></label>
-            <label>Text: <input type="color" id="textColor1" value="#ffffff"></label>
-        </div>
+  <h2 style="text-align:center;">Color Palette Design</h2>
+  <div class="container">
+  <!-- Color Box 1 -->
+  <div class="color-box" id="box1" style="background-color: #319E5B;">
+    <span>Session</span>
+    <span class="color-info">BG: #319E5B, Text: #fff</span>
+  </div>
+  <div class="controls">
+    <label>BG: <input type="color" id="bgColor1" value="#319E5B"></label>
+    <label>Text: <input type="color" id="textColor1" value="#ffffff"></label>
+  </div>
 
-        <!-- Color Box 2 -->
-        <div class="color-box" id="box2" style="background-color: #fff; color: #000;">
-            <span>Match Odd</span>
-            <span class="color-info">BG: #fff, Text: #000</span>
-        </div>
-        <div class="controls">
-            <label>BG: <input type="color" id="bgColor2" value="#ffffff"></label>
-            <label>Text: <input type="color" id="textColor2" value="#000000"></label>
-        </div>
+  <!-- Color Box 2 -->
+  <div class="color-box" id="box2" style="background-color: #fff; color: #000;">
+    <span>Match Odd</span>
+    <span class="color-info">BG: #fff, Text: #000</span>
+  </div>
+  <div class="controls">
+    <label>BG: <input type="color" id="bgColor2" value="#ffffff"></label>
+    <label>Text: <input type="color" id="textColor2" value="#000000"></label>
+  </div>
 
-        <!-- Add more boxes similarly -->
-        <div class="color-box" id="box3" style="background-color: #F6C550; color: #000;">
-            <span>Bookmaker</span>
-            <span class="color-info">Background: #F6C550, Text: #000</span>
-        </div>
-        <div class="controls">
-            <label>Change Background: <input type="color" id="bgColor3" value="#F6C550"></label>
-            <label>Change Text Color: <input type="color" id="textColor3" value="#000000"></label>
-        </div>
-        <!-- Box 4 -->
-        <div class="color-box" id="box3" style="background-color: #5C1D04; color: #000;">
+  <!-- Add more boxes similarly -->
+  <div class="color-box" id="box3" style="background-color: #F6C550; color: #000;">
+    <span>Bookmaker</span>
+    <span class="color-info">BG: #F6C550, Text: #000</span>
+  </div>
+  <div class="controls">
+    <label>BG: <input type="color" id="bgColor3" value="#F6C550"></label>
+    <label>Text: <input type="color" id="textColor3" value="#000000"></label>
+  </div>
+   <div class="color-box" id="box4" style="background-color: #5C1D04; color: #000;">
             <span>quickbookmaker1</span>
             <span class="color-info">BG: #5C1D04, Text: #fff</span>
         </div>
         <div class="controls">
-            <label>BG: <input type="color" id="bgColor3" value="#5C1D04"></label>
-            <label>Text: <input type="color" id="textColor3" value="#fff"></label>
+            <label>BG: <input type="color" id="bgColor4" value="#5C1D04"></label>
+            <label>Text: <input type="color" id="textColor4" value="#fff"></label>
         </div>
         <!-- Box 5 -->
-        <div class="color-box" id="box3" style="background-color: #0549F5; color: #000;">
+        <div class="color-box" id="box5" style="background-color: #0549F5; color: #000;">
             <span>quickbookmaker2</span>
             <span class="color-info">BG: #0549F5, Text: #fff</span>
         </div>
         <div class="controls">
-            <label>BG: <input type="color" id="bgColor3" value="#0549F5"></label>
-            <label>Text: <input type="color" id="textColor3" value="#fff"></label>
+            <label>BG: <input type="color" id="bgColor5" value="#0549F5"></label>
+            <label>Text: <input type="color" id="textColor5" value="#fff"></label>
         </div>
         <!-- Box 6 -->
-        <div class="color-box" id="box3" style="background-color: #3F345C; color: #000;">
+        <div class="color-box" id="box6" style="background-color: #3F345C; color: #000;">
             <span>quickbookmaker3</span>
             <span class="color-info">BG: #3F345C, Text: #fff</span>
         </div>
         <div class="controls">
-            <label>BG: <input type="color" id="bgColor3" value="#3F345C"></label>
-            <label>Text: <input type="color" id="textColor3" value="#fff"></label>
+            <label>BG: <input type="color" id="bgColor6" value="#3F345C"></label>
+            <label>Text: <input type="color" id="textColor6" value="#fff"></label>
         </div>
         <!-- Box 7 -->
-        <div class="color-box" id="box3" style="background-color: #FAF11B; color: #000;">
+        <div class="color-box" id="box7" style="background-color: #FAF11B; color: #000;">
             <span>completeMatch</span>
             <span class="color-info">BG: #FAF11B, Text: #000</span>
         </div>
         <div class="controls">
-            <label>BG: <input type="color" id="bgColor3" value="#FAF11B"></label>
-            <label>Text: <input type="color" id="textColor3" value="#000000"></label>
+            <label>BG: <input type="color" id="bgColor7" value="#FAF11B"></label>
+            <label>Text: <input type="color" id="textColor7" value="#000000"></label>
         </div>
         <!-- Box 8 -->
-        <div class="color-box" id="box3" style="background-color: #FBF11B; color: #000;">
+        <div class="color-box" id="box8" style="background-color: #FBF11B; color: #000;">
             <span>completeManual</span>
             <span class="color-info">BG: #FBF11B, Text: #000</span>
         </div>
         <div class="controls">
-            <label>BG: <input type="color" id="bgColor3" value="#FBF11B"></label>
-            <label>Text: <input type="color" id="textColor3" value="#000000"></label>
+            <label>BG: <input type="color" id="bgColor8" value="#FBF11B"></label>
+            <label>Text: <input type="color" id="textColor8" value="#000000"></label>
         </div>
         <!-- Box 9 -->
-        <div class="color-box" id="box3" style="background-color: #FCF11B; color: #000;">
+        <div class="color-box" id="box9" style="background-color: #FCF11B; color: #000;">
             <span>tiedMatch1</span>
             <span class="color-info">BG: #FCF11B, Text: #000</span>
         </div>
         <div class="controls">
-            <label>BG: <input type="color" id="bgColor3" value="#FCF11B"></label>
-            <label>Text: <input type="color" id="textColor3" value="#000000"></label>
+            <label>BG: <input type="color" id="bgColor9" value="#FCF11B"></label>
+            <label>Text: <input type="color" id="textColor9" value="#000000"></label>
         </div>
         <!-- Box 10 -->
-        <div class="color-box" id="box3" style="background-color: #EE82EE; color: #000;">
+        <div class="color-box" id="box10" style="background-color: #EE82EE; color: #000;">
             <span>tiedMatch2</span>
             <span class="color-info">BG: #EE82EE, Text: #000</span>
         </div>
         <div class="controls">
-            <label>BG: <input type="color" id="bgColor3" value="#EE82EE"></label>
-            <label>Text: <input type="color" id="textColor3" value="#000000"></label>
+            <label>BG: <input type="color" id="bgColor10" value="#EE82EE"></label>
+            <label>Text: <input type="color" id="textColor10" value="#000000"></label>
         </div>
         <!-- Box 11 -->
-        <div class="color-box" id="box3" style="background-color: #452245; color: #000;">
+        <div class="color-box" id="box11" style="background-color: #452245; color: #000;">
             <span>tiedMatch3</span>
             <span class="color-info">BG: #452245, Text: #fff</span>
         </div>
         <div class="controls">
-            <label>BG: <input type="color" id="bgColor3" value="#452245"></label>
-            <label>Text: <input type="color" id="textColor3" value="#fff"></label>
+            <label>BG: <input type="color" id="bgColor11" value="#452245"></label>
+            <label>Text: <input type="color" id="textColor11" value="#fff"></label>
         </div>
         <!-- Box 12 -->
-        <div class="color-box" id="box3" style="background-color: #FF1111; color: #000;">
+        <div class="color-box" id="box12" style="background-color: #FF1111; color: #000;">
             <span>cricketCasino</span>
             <span class="color-info">BG: #FF1111, Text: #fff</span>
         </div>
         <div class="controls">
-            <label>BG: <input type="color" id="bgColor3" value="#FF1111"></label>
-            <label>BG: <input type="color" id="textColor3" value="#fff"></label>
+            <label>BG: <input type="color" id="bgColor12" value="#FF1111"></label>
+            <label>BG: <input type="color" id="textColor12" value="#fff"></label>
         </div>
         <!-- Box 13 -->
-        <div class="color-box" id="box3" style="background-color: #7C46E6; color: #000;">
+        <div class="color-box" id="box13" style="background-color: #7C46E6; color: #000;">
             <span>oddEven</span>
             <span class="color-info">BG: #7C46E6, Text: #fff</span>
         </div>
         <div class="controls">
-            <label>BG: <input type="color" id="bgColor3" value="#7C46E6"></label>
-            <label>Text: <input type="color" id="textColor3" value="#fff"></label>
+            <label>BG: <input type="color" id="bgColor13" value="#7C46E6"></label>
+            <label>Text: <input type="color" id="textColor13" value="#fff"></label>
         </div>
         <!-- Box 14 -->
-        <div class="color-box" id="box3" style="background-color: #FF8633; color: #000;">
+        <div class="color-box" id="box14" style="background-color: #FF8633; color: #000;">
             <span>fancy1</span>
             <span class="color-info">BG: #FF8633, Text: #000</span>
         </div>
         <div class="controls">
-            <label>BG: <input type="color" id="bgColor3" value="#FF8633"></label>
-            <label>Text: <input type="color" id="textColor3" value="#000000"></label>
+            <label>BG: <input type="color" id="bgColor14" value="#FF8633"></label>
+            <label>Text: <input type="color" id="textColor14" value="#000000"></label>
         </div>
         <!-- Box 15 -->
-        <div class="color-box" id="box3" style="background-color: #FFA07A; color: #000;">
+        <div class="color-box" id="box15" style="background-color: #FFA07A; color: #000;">
             <span>overByOver</span>
             <span class="color-info">BG: #FFA07A, Text: #000</span>
         </div>
         <div class="controls">
-            <label>BG: <input type="color" id="bgColor3" value="#F6C550"></label>
-            <label>Text: <input type="color" id="textColor3" value="#000000"></label>
+            <label>BG: <input type="color" id="bgColor15" value="#F6C550"></label>
+            <label>Text: <input type="color" id="textColor15" value="#000000"></label>
         </div>
         <!-- Box 16 -->
-        <div class="color-box" id="box3" style="background-color: #33FF33; color: #000;">
+        <div class="color-box" id="box16" style="background-color: #33FF33; color: #000;">
             <span>ballByBall</span>
             <span class="color-info">BG: #33FF33, Text: #000</span>
         </div>
         <div class="controls">
-            <label>BG: <input type="color" id="bgColor3" value="#33FF33"></label>
-            <label>Text: <input type="color" id="textColor3" value="#000000"></label>
+            <label>BG: <input type="color" id="bgColor16" value="#33FF33"></label>
+            <label>Text: <input type="color" id="textColor16" value="#000000"></label>
         </div>
-    </div>
-    <script>
-        // Function to dynamically change background and text colors
-        function setupColorChange(boxId, bgColorId, textColorId) {
-            const box = document.getElementById(boxId);
-            const bgColorPicker = document.getElementById(bgColorId);
-            const textColorPicker = document.getElementById(textColorId);
+  </div>
+  <script>
+    // Function to dynamically change background and text colors
+    function setupColorChange(boxId, bgColorId, textColorId) {
+      const box = document.getElementById(boxId);
+      const bgColorPicker = document.getElementById(bgColorId);
+      const textColorPicker = document.getElementById(textColorId);
 
-            bgColorPicker.addEventListener('input', () => {
-                box.style.backgroundColor = bgColorPicker.value;
-                box.querySelector('.color-info').textContent = `Background: ${bgColorPicker.value}, Text: ${textColorPicker.value}`;
-            });
+      bgColorPicker.addEventListener('input', () => {
+        box.style.backgroundColor = bgColorPicker.value;
+        box.querySelector('.color-info').textContent = `Background: ${bgColorPicker.value}, Text: ${textColorPicker.value}`;
+      });
 
-            textColorPicker.addEventListener('input', () => {
-                box.style.color = textColorPicker.value;
-                box.querySelector('.color-info').textContent = `Background: ${bgColorPicker.value}, Text: ${textColorPicker.value}`;
-            });
-        }
+      textColorPicker.addEventListener('input', () => {
+        box.style.color = textColorPicker.value;
+        box.querySelector('.color-info').textContent = `Background: ${bgColorPicker.value}, Text: ${textColorPicker.value}`;
+      });
+    }
 
-        // Setup dynamic color change for each box
-        setupColorChange('box1', 'bgColor1', 'textColor1');
-        setupColorChange('box2', 'bgColor2', 'textColor2');
+    // Setup dynamic color change for each box
+    setupColorChange('box1', 'bgColor1', 'textColor1');
+    setupColorChange('box2', 'bgColor2', 'textColor2');
+    setupColorChange('box3', 'bgColor3', 'textColor3');
+    setupColorChange('box4', 'bgColor4', 'textColor4');
+    setupColorChange('box5', 'bgColor5', 'textColor5');
+    setupColorChange('box6', 'bgColor6', 'textColor6');
+    setupColorChange('box7', 'bgColor7', 'textColor7');
+    setupColorChange('box8', 'bgColor8', 'textColor8');
+    setupColorChange('box9', 'bgColor9', 'textColor9');
+    setupColorChange('box10', 'bgColor10', 'textColor10');
+    setupColorChange('box11', 'bgColor11', 'textColor11');
+    setupColorChange('box12', 'bgColor12', 'textColor12');
+    setupColorChange('box13', 'bgColor13', 'textColor13');
+    setupColorChange('box14', 'bgColor14', 'textColor14');
+    setupColorChange('box15', 'bgColor15', 'textColor15');
+    setupColorChange('box16', 'bgColor16', 'textColor16');
     // Repeat for all other boxes
-    </script>
+  </script>
 </body>
-
 </html>
